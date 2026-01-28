@@ -37,7 +37,7 @@ def linearSearch(items:list, target) ->tuple[int,int]:
 
 
 def binarySearch(items:list, target) -> tuple[int,int]:
-    # Modify the below function such that it implements binary search.
+    # Modify the below function such that it implements linear search.
     # Return the index of the target value and the amount of checks it took
     # if the value is not within the list return -1 as the index.
     pass
