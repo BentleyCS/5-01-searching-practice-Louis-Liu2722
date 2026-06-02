@@ -1,13 +1,8 @@
-from turtledemo.penrose import start
+import random
 
+def randomSearch(items:list, target:int) -> int:
 
-def randomSearch(items:list, target) -> int:
-    #Modify the below function such that it takes in a list of items and a target value.
-    #Randomly choose an item from the list and if it isn't the target value try again.
-    #print out the amount of tries it took and return the index of the target value
-    pass
-    import random
-    count=0
+    count =0
 
     while True:
         search=random.randint(0, len(items)-1)
